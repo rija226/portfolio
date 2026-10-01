@@ -1,0 +1,82 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 14px;
+  letter-spacing: -0.01em;
+  transition: padding 0.3s ease;
+}
+
+.logo {
+  height: 64px;
+  width: auto;
+  transition: height 0.3s ease;
+}
+
+:global([data-scrolled="true"]) .header {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+:global([data-scrolled="true"]) .logo {
+  height: 44px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .header,
+  .logo {
+    transition: none;
+  }
+}
+
+.nav {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  color: var(--color-ink-600);
+  transition: color 0.2s ease;
+}
+
+.nav a:hover {
+  color: var(--color-teal-600);
+}
+
+.localeSwitch {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 6px;
+  padding-left: 22px;
+  border-left: 1px solid var(--color-border-warm);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+}
+
+.localeSwitch span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.localeSwitch span[aria-hidden="true"] {
+  color: var(--color-ink-200);
+}
+
+.localeSwitch a {
+  color: var(--color-ink-400);
+}
+
+.localeSwitch a:hover {
+  color: var(--color-teal-600);
+}
+
+.localeSwitch [aria-current="page"] {
+  color: var(--color-teal-600);
+}

@@ -1,0 +1,228 @@
+.band {
+  background: var(--color-dark-bg);
+  color: var(--color-dark-text);
+}
+
+.contact {
+  padding-top: 120px;
+  padding-bottom: 88px;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-dark-accent);
+}
+
+.intro h2 {
+  margin: 0;
+  font-size: clamp(34px, 5vw, 58px);
+  line-height: 1.06;
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  max-width: 720px;
+  color: var(--color-dark-heading);
+  text-wrap: pretty;
+}
+
+.lead {
+  margin: 0;
+  max-width: 560px;
+  font-size: 18px;
+  line-height: 1.65;
+  color: var(--color-dark-muted);
+  font-weight: 300;
+  letter-spacing: -0.01em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  padding: 32px;
+  border: 1px solid var(--color-dark-border);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.field label,
+.topicLabel {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-dark-accent);
+}
+
+.input {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--color-dark-border);
+  border-radius: 6px;
+  padding: 12px 14px;
+  color: var(--color-dark-text);
+  font-family: var(--font-sans), Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  transition: border-color 0.2s ease;
+}
+
+.input::placeholder {
+  color: var(--color-dark-footer-text);
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--color-dark-accent);
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 96px;
+}
+
+.topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.topic {
+  appearance: none;
+  cursor: pointer;
+  padding: 9px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--color-dark-border);
+  background: transparent;
+  color: var(--color-dark-muted);
+  font-family: var(--font-sans), Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.topic:hover {
+  border-color: var(--color-dark-accent);
+}
+
+.topicActive {
+  background: var(--color-dark-accent);
+  border-color: var(--color-dark-accent);
+  color: var(--color-dark-bg);
+}
+
+.formFooter {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.submit {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 24px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--color-dark-accent);
+  color: var(--color-dark-bg);
+  font-family: var(--font-sans), Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.submit:hover {
+  background: var(--color-dark-accent-hover);
+}
+
+.helper {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: var(--color-dark-footer-text);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--color-dark-border);
+}
+
+@media (max-width: 800px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+.link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 24px 4px;
+  border-bottom: 1px solid var(--color-dark-border);
+  color: var(--color-dark-text);
+  transition:
+    padding-left 0.3s ease,
+    background 0.3s ease,
+    color 0.3s ease;
+}
+
+.link:hover {
+  padding-left: 16px;
+  background: var(--color-dark-hover-bg);
+  color: var(--color-dark-accent-hover);
+}
+
+.linkText {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.linkLabel {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-dark-accent);
+}
+
+.linkValue {
+  font-size: clamp(19px, 2vw, 24px);
+  letter-spacing: -0.02em;
+  font-weight: 400;
+}
+
+.linkArrow {
+  font-size: 18px;
+  color: var(--color-dark-accent);
+}

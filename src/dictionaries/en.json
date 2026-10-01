@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "title": "Aleksandar — Full-stack developer",
+    "description": "Full-stack developer with a frontend focus, building fast interfaces in React and Next.js."
+  },
+  "header": {
+    "name": "Aleksandar",
+    "nav": [
+      { "href": "#work", "label": "Work" },
+      { "href": "#services", "label": "Services" },
+      { "href": "#about", "label": "About" },
+      { "href": "#contact", "label": "Contact" }
+    ]
+  },
+  "hero": {
+    "availability": "Available for freelance work",
+    "heading": "Aleksandar",
+    "intro": "I'm a full-stack developer with a frontend focus. I build considered, fast interfaces in React and Next.js — and the APIs, databases and deploys that keep them running.",
+    "primaryCta": { "href": "#contact", "label": "Get in touch" },
+    "secondaryCta": { "href": "#work", "label": "See my work" }
+  },
+  "techStrip": {
+    "label": "Working with",
+    "tech": ["React", "Next.js", "TypeScript", "Node", "PostgreSQL", "Tailwind", "React Native", "Prisma"]
+  },
+  "services": {
+    "eyebrow": "What I do",
+    "heading": "Three kinds of work, one way of working.",
+    "intro": "Whichever you need, you get the same thing: something that loads fast, holds up, and is easy to hand over.",
+    "items": [
+      {
+        "title": "Websites",
+        "blurb": "Marketing sites and landing pages that load fast, read well on a phone, and let you edit your own copy without calling me."
+      },
+      {
+        "title": "Web apps",
+        "blurb": "Dashboards, portals and internal tools — auth, data, and the unglamorous flows that decide whether people actually use it."
+      },
+      {
+        "title": "Mobile apps",
+        "blurb": "Cross-platform apps in React Native, shipped to both stores, that feel native rather than like a website in a shell."
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "About",
+    "paragraphs": [
+      "Four years in, I've settled into the part of the stack I like most: the seam where a clean interface meets a system that actually holds up. Most of that time has been React and Next.js on the front, Node and Postgres behind it.",
+      "I care about the small things — how a page loads, how a form fails, whether the thing you clicked feels like it responded. AI and agentic tools are a normal part of how I work now; they handle the scaffolding so I can spend my attention on architecture and detail. I write in plain language, ship in small increments, and I'd rather ask one more question than build the wrong thing."
+    ],
+    "callout": "Right now I'm open to both a full-time role and freelance builds — websites, web apps, or mobile.",
+    "photoAlt": "Portrait photo of Aleksandar"
+  },
+  "process": {
+    "eyebrow": "How I work",
+    "heading": "Four steps, no mystery.",
+    "steps": [
+      {
+        "title": "Discovery",
+        "arrow": "→",
+        "blurb": "A call and a short written brief. I want to know who it's for and what success looks like before I open an editor."
+      },
+      {
+        "title": "Design",
+        "arrow": "→",
+        "blurb": "Wireframes first, then real screens. You see it early and often, so nothing lands as a surprise."
+      },
+      {
+        "title": "Build",
+        "arrow": "→",
+        "blurb": "Small increments on a live preview URL. I lean on AI and agentic tools for scaffolding and tests, which buys back time for the details that matter."
+      },
+      {
+        "title": "Launch",
+        "arrow": "",
+        "blurb": "Deploy, analytics, a walkthrough and clean docs — then a check-in once you've lived with it."
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Selected work",
+    "intro": "Recent work — real projects, not demos.",
+    "items": [
+      {
+        "title": "Plava Laguna Partners Portal",
+        "year": "2026",
+        "href": "#",
+        "blurb": "A login-protected portal for Plava Laguna's travel-agency partners — property listings, fact sheets and photos in one place, filterable by type, stars and location. Content runs through Contentful, so the team edits it without touching code.",
+        "stack": ["Next.js", "Contentful", "Netlify"]
+      },
+      {
+        "title": "Celeste",
+        "year": "2026",
+        "href": "#",
+        "blurb": "An astronomy learning app — spaced-repetition flashcards, constellation quizzes, and a live AR sky view that shows tonight's planets and meteor showers through the camera. Levels, XP and streaks make it stick.",
+        "stack": ["React Native", "Expo", "Supabase"]
+      },
+      {
+        "title": "Focus Flow",
+        "year": "2026",
+        "href": "#",
+        "blurb": "A mobile task manager — Today, Board and Categories screens, one Kanban flow from todo to done, and due-date reminders. Built on Supabase auth and Postgres, everything scoped to your account.",
+        "stack": ["React", "TypeScript", "Supabase"]
+      },
+      {
+        "title": "Posavski Med",
+        "year": "2026",
+        "href": "#",
+        "blurb": "A marketing site for a family beekeeping business in Posavina — product range, the family's story and a blog, built to earn trust and turn visitors into contacts. Fully static, no backend.",
+        "stack": ["React", "Tailwind", "Framer Motion"]
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "heading": "The things clients usually ask first.",
+    "items": [
+      {
+        "q": "How long does a project take?",
+        "a": "A marketing site is usually two to three weeks. A web or mobile app depends on scope — most of what I take on lands between six and ten weeks. I'll give you a range after our first call, and I'd rather revise it out loud than quietly miss it."
+      },
+      {
+        "q": "How do you charge?",
+        "a": "Fixed price when the scope is clear, a weekly rate when it isn't yet. Either way you see the number before I start, and there are no surprise line items at the end."
+      },
+      {
+        "q": "Do you work with existing teams?",
+        "a": "Often. I'm comfortable dropping into an existing codebase, following your conventions, and reviewing PRs rather than rewriting things. I ask a lot of questions in the first week and fewer after that."
+      },
+      {
+        "q": "What if I only need part of a project?",
+        "a": "That's fine — plenty of my work is one slice: a frontend on top of an API you already have, a design handed to me as Figma files, or a performance and accessibility pass on something already live."
+      },
+      {
+        "q": "Do you keep working on it after launch?",
+        "a": "If you want me to. I'll hand over clean docs so you're not dependent on me, and I'm happy to stay on a small monthly arrangement for fixes and small features."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "heading": "Got something you want built? Tell me about it.",
+    "intro": "Hiring, freelance, or just a question about a stack decision — I reply to everything.",
+    "links": [
+      { "label": "Email", "value": "hello@aleksandar.dev", "href": "mailto:hello@aleksandar.dev" },
+      { "label": "LinkedIn", "value": "/in/aleksandar", "href": "https://linkedin.com" },
+      { "label": "GitHub", "value": "@aleksandar", "href": "https://github.com" }
+    ],
+    "form": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Your name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@company.com",
+      "topicLabel": "What's it about",
+      "topics": ["Website", "Web app", "Mobile app", "A role"],
+      "messageLabel": "Message",
+      "messagePlaceholder": "What are you building, and roughly when do you need it?",
+      "submit": "Send message",
+      "helper": "Replies within 24h",
+      "recipient": "hello@aleksandar.dev",
+      "subject": "New project inquiry"
+    }
+  },
+  "footer": {
+    "name": "Aleksandar",
+    "blurb": "Full-stack developer with a frontend focus. Websites, web apps and mobile — built to last longer than the launch.",
+    "status": "Open to work · Remote",
+    "sectionsLabel": "Sections",
+    "sections": [
+      { "href": "#services", "label": "Services" },
+      { "href": "#about", "label": "About" },
+      { "href": "#process", "label": "Process" },
+      { "href": "#work", "label": "Work" },
+      { "href": "#faq", "label": "FAQ" }
+    ],
+    "copyright": "© 2026 Aleksandar · All rights reserved",
+    "builtWith": "Built with Next.js · deployed on Vercel",
+    "backToTop": "Back to top"
+  }
+}

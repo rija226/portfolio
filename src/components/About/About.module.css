@@ -1,0 +1,72 @@
+.band {
+  background: var(--color-sand-50);
+}
+
+.about {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 72px;
+  align-items: start;
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.leadParagraph {
+  margin: 0;
+  font-size: clamp(19px, 2vw, 23px);
+  line-height: 1.6;
+  font-weight: 300;
+  letter-spacing: -0.012em;
+  color: var(--color-ink-800);
+  text-wrap: pretty;
+}
+
+.paragraph {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--color-ink-500);
+  letter-spacing: -0.008em;
+  text-wrap: pretty;
+}
+
+.callout {
+  margin: 0;
+  padding: 18px 22px;
+  background: var(--color-sand-200);
+  border-left: 2px solid var(--color-teal-600);
+  border-radius: 0 4px 4px 0;
+  font-size: 17px;
+  line-height: 1.65;
+  color: var(--color-ink-700);
+  letter-spacing: -0.008em;
+  text-wrap: pretty;
+}
+
+.photo {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid var(--color-border-photo);
+  border-radius: 4px;
+  background: var(--color-photo-bg);
+}
+
+.photoImg {
+  object-fit: cover;
+  object-position: 65% 15%;
+}
+
+@media (max-width: 760px) {
+  .about {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}

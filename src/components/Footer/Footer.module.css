@@ -1,0 +1,153 @@
+.band {
+  background: var(--color-dark-bg);
+}
+
+.footer {
+  padding-top: 56px;
+  padding-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  color: var(--color-dark-text);
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 48px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid var(--color-dark-border);
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 360px;
+}
+
+.brandHead {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--color-teal-600);
+  color: var(--color-sand-50);
+  font-family: var(--font-sans), Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.markDot {
+  color: var(--color-dark-accent);
+}
+
+.wordmark {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: var(--color-dark-heading);
+}
+
+.blurb {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--color-dark-muted);
+  letter-spacing: -0.006em;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-dark-accent);
+}
+
+.statusDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-dark-accent);
+  display: block;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 140px;
+}
+
+.sectionsLabel {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-dark-accent);
+  margin-bottom: 4px;
+}
+
+.sections a {
+  color: var(--color-dark-muted);
+  font-size: 15px;
+  transition: color 0.2s ease;
+}
+
+.sections a:hover {
+  color: var(--color-dark-accent-hover);
+}
+
+.bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  color: var(--color-dark-footer-text);
+}
+
+.bottomRight {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.backToTop {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--color-dark-footer-text);
+  transition: color 0.2s ease;
+}
+
+.backToTop:hover {
+  color: var(--color-dark-accent-hover);
+}
+
+@media (max-width: 640px) {
+  .top {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .sections {
+    min-width: 0;
+  }
+}

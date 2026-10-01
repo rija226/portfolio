@@ -1,0 +1,8 @@
+.heroBand {
+  background: linear-gradient(
+    180deg,
+    var(--color-sand-50) 0%,
+    var(--color-sand-150) 58%,
+    var(--color-sand-50) 100%
+  );
+}

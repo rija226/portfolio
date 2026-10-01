@@ -1,0 +1,25 @@
+.sentinel {
+  height: 0;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: transparent;
+  box-shadow: 0 8px 24px -16px rgba(26, 26, 26, 0);
+  transition:
+    background 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.scrolled {
+  background: var(--color-sand-50);
+  box-shadow: 0 8px 24px -16px rgba(26, 26, 26, 0.3);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sticky {
+    transition: none;
+  }
+}

@@ -1,0 +1,139 @@
+.hero {
+  padding-top: 112px;
+  padding-bottom: 128px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.visual {
+  display: flex;
+}
+
+@media (min-width: 960px) {
+  .grid {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+  }
+
+  .copy {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .visual {
+    flex: 0 0 420px;
+  }
+}
+
+.badge {
+  display: inline-flex;
+  align-self: flex-start;
+  align-items: center;
+  gap: 9px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-teal-800);
+  background: var(--color-teal-50);
+  border: 1px solid var(--color-teal-200);
+  padding: 7px 14px 7px 12px;
+  border-radius: 999px;
+}
+
+.badgeDot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--color-teal-600);
+  display: block;
+}
+
+.heading {
+  margin: 0;
+  font-size: clamp(64px, 11vw, 132px);
+  line-height: 0.92;
+  font-weight: 500;
+  letter-spacing: -0.05em;
+}
+
+.dot {
+  color: var(--color-teal-600);
+}
+
+.intro {
+  margin: 0;
+  max-width: 660px;
+  font-size: clamp(20px, 2.4vw, 27px);
+  line-height: 1.5;
+  font-weight: 300;
+  letter-spacing: -0.015em;
+  color: var(--color-ink-800);
+  text-wrap: pretty;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+  padding-top: 6px;
+}
+
+.primaryCta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--color-teal-600);
+  color: var(--color-sand-50);
+  padding: 15px 26px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  transition:
+    background 0.25s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.primaryCta:hover {
+  background: var(--color-teal-700);
+  transform: translateY(-1px);
+  box-shadow: 0 12px 26px -16px rgba(15, 97, 87, 0.65);
+}
+
+.secondaryCta {
+  display: inline-flex;
+  align-items: center;
+  padding: 15px 24px;
+  border-radius: 999px;
+  border: 1px solid var(--color-border-warm);
+  background: rgba(255, 255, 255, 0.5);
+  color: var(--color-ink-700);
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  transition:
+    border-color 0.25s ease,
+    background 0.25s ease,
+    color 0.25s ease;
+}
+
+.secondaryCta:hover {
+  border-color: var(--color-teal-600);
+  background: #ffffff;
+  color: var(--color-teal-600);
+}
