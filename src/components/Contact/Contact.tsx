@@ -9,22 +9,27 @@ export default function Contact({ dict }: { dict: Dictionary["contact"] }) {
   const { form } = dict;
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [topic, setTopic] = useState(form.topics[0]);
   const [message, setMessage] = useState("");
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const body = [
-      `${form.nameLabel}: ${name}`,
-      `${form.emailLabel}: ${email}`,
-      `${form.topicLabel}: ${topic}`,
-      "",
-      message,
-    ].join("\n");
-    const mailto = `mailto:${form.recipient}?subject=${encodeURIComponent(
-      `${form.subject}: ${topic}`
-    )}&body=${encodeURIComponent(body)}`;
-    window.location.href = mailto;
+    const website = new FormData(e.currentTarget).get("website");
+    setStatus("sending");
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, email, message, website }),
+      });
+      if (!res.ok) throw new Error(String(res.status));
+      setName("");
+      setEmail("");
+      setMessage("");
+      setStatus("sent");
+    } catch {
+      setStatus("error");
+    }
   };
 
   return (
@@ -66,25 +71,6 @@ export default function Contact({ dict }: { dict: Dictionary["contact"] }) {
               />
             </div>
             <div className={styles.field}>
-              <span className={styles.topicLabel} id="contact-topic-label">
-                {form.topicLabel}
-              </span>
-              <div className={styles.topics} role="radiogroup" aria-labelledby="contact-topic-label">
-                {form.topics.map((t) => (
-                  <button
-                    key={t}
-                    type="button"
-                    role="radio"
-                    aria-checked={topic === t}
-                    className={`${styles.topic} ${topic === t ? styles.topicActive : ""}`}
-                    onClick={() => setTopic(t)}
-                  >
-                    {t}
-                  </button>
-                ))}
-              </div>
-            </div>
-            <div className={styles.field}>
               <label htmlFor="contact-message">{form.messageLabel}</label>
               <textarea
                 id="contact-message"
@@ -96,12 +82,25 @@ export default function Contact({ dict }: { dict: Dictionary["contact"] }) {
                 className={`${styles.input} ${styles.textarea}`}
               />
             </div>
+            <input
+              type="text"
+              name="website"
+              tabIndex={-1}
+              autoComplete="off"
+              aria-hidden="true"
+              className={styles.honeypot}
+            />
             <div className={styles.formFooter}>
-              <button type="submit" className={styles.submit}>
-                {form.submit}
+              <button type="submit" className={styles.submit} disabled={status === "sending"}>
+                {status === "sending" ? form.sending : form.submit}
                 <span aria-hidden="true">&#8594;</span>
               </button>
-              <span className={styles.helper}>{form.helper}</span>
+              <span
+                role="status"
+                className={`${styles.helper} ${status === "sent" ? styles.sent : ""} ${status === "error" ? styles.error : ""}`}
+              >
+                {status === "sent" ? form.success : status === "error" ? form.error : form.helper}
+              </span>
             </div>
           </form>
           <div className={styles.list}>

@@ -83,3 +83,11 @@
   letter-spacing: -0.006em;
   text-wrap: pretty;
 }
+
+@media (max-width: 760px) {
+  .process {
+    padding-top: 72px;
+    padding-bottom: 72px;
+    gap: 36px;
+  }
+}

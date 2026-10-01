@@ -5,6 +5,7 @@
   },
   "header": {
     "name": "Aleksandar",
+    "menu": "Menu",
     "nav": [
       { "href": "#work", "label": "Work" },
       { "href": "#services", "label": "Services" },
@@ -142,8 +143,8 @@
     "heading": "Got something you want built? Tell me about it.",
     "intro": "Hiring, freelance, or just a question about a stack decision — I reply to everything.",
     "links": [
-      { "label": "Email", "value": "hello@aleksandar.dev", "href": "mailto:hello@aleksandar.dev" },
-      { "label": "LinkedIn", "value": "/in/aleksandar", "href": "https://linkedin.com" },
+      { "label": "Email", "value": "aleksandarrijic@gmail.com", "href": "mailto:aleksandarrijic@gmail.com" },
+      { "label": "LinkedIn", "value": "/in/aleksandar-rijic", "href": "https://www.linkedin.com/in/aleksandar-rijic-253326202" },
       { "label": "GitHub", "value": "@aleksandar", "href": "https://github.com" }
     ],
     "form": {
@@ -151,14 +152,13 @@
       "namePlaceholder": "Your name",
       "emailLabel": "Email",
       "emailPlaceholder": "you@company.com",
-      "topicLabel": "What's it about",
-      "topics": ["Website", "Web app", "Mobile app", "A role"],
       "messageLabel": "Message",
       "messagePlaceholder": "What are you building, and roughly when do you need it?",
       "submit": "Send message",
       "helper": "Replies within 24h",
-      "recipient": "hello@aleksandar.dev",
-      "subject": "New project inquiry"
+      "sending": "Sending…",
+      "success": "Message sent. I'll reply within 24h.",
+      "error": "Couldn't send. Please try again or email me directly."
     }
   },
   "footer": {

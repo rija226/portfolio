@@ -5,6 +5,13 @@
   padding-right: 32px;
 }
 
+@media (max-width: 760px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 .eyebrow {
   font-family: var(--font-mono);
   font-size: 11px;

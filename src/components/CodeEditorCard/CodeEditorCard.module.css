@@ -48,7 +48,7 @@
 
 .body {
   font-family: var(--font-mono);
-  font-size: clamp(10.5px, 2.5vw, 13px);
+  font-size: clamp(9px, 2.9vw, 13px);
   line-height: 2;
   color: var(--color-ink-700);
   padding: 22px;
@@ -152,6 +152,12 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--muted-ink);
+}
+
+@media (max-width: 760px) {
+  .body {
+    padding: 18px;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

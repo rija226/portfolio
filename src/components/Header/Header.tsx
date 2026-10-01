@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./Header.module.css";
 import shared from "@/styles/shared.module.css";
+import HeaderNav from "./HeaderNav";
 import { locales, type Dictionary, type Locale } from "@/dictionaries/get-dictionary";
 
 const localeLabels: Record<Locale, string> = {
@@ -19,7 +20,7 @@ export default function Header({ dict, lang }: { dict: Dictionary["header"]; lan
         priority
         className={styles.logo}
       />
-      <nav className={styles.nav} aria-label="Primary">
+      <HeaderNav label={dict.menu}>
         {dict.nav.map((link) => (
           <a key={link.href} href={link.href}>
             {link.label}
@@ -37,7 +38,7 @@ export default function Header({ dict, lang }: { dict: Dictionary["header"]; lan
             </span>
           ))}
         </span>
-      </nav>
+      </HeaderNav>
     </header>
   );
 }

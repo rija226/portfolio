@@ -5,6 +5,7 @@
   },
   "header": {
     "name": "Aleksandar",
+    "menu": "Izbornik",
     "nav": [
       { "href": "#work", "label": "Radovi" },
       { "href": "#services", "label": "Usluge" },
@@ -142,8 +143,8 @@
     "heading": "Imaš nešto što želiš napraviti? Reci mi o tome.",
     "intro": "Zapošljavanje, freelance ili samo pitanje o odabiru tehnologije — odgovaram na sve.",
     "links": [
-      { "label": "Email", "value": "hello@aleksandar.dev", "href": "mailto:hello@aleksandar.dev" },
-      { "label": "LinkedIn", "value": "/in/aleksandar", "href": "https://linkedin.com" },
+      { "label": "Email", "value": "aleksandarrijic@gmail.com", "href": "mailto:aleksandarrijic@gmail.com" },
+      { "label": "LinkedIn", "value": "/in/aleksandar-rijic", "href": "https://www.linkedin.com/in/aleksandar-rijic-253326202" },
       { "label": "GitHub", "value": "@aleksandar", "href": "https://github.com" }
     ],
     "form": {
@@ -151,14 +152,13 @@
       "namePlaceholder": "Tvoje ime",
       "emailLabel": "Email",
       "emailPlaceholder": "ti@tvrtka.com",
-      "topicLabel": "O čemu se radi",
-      "topics": ["Web stranica", "Web aplikacija", "Mobilna aplikacija", "Posao/uloga"],
       "messageLabel": "Poruka",
       "messagePlaceholder": "Što gradiš i otprilike kad ti treba?",
       "submit": "Pošalji poruku",
       "helper": "Odgovaram u roku od 24h",
-      "recipient": "hello@aleksandar.dev",
-      "subject": "Novi upit za projekt"
+      "sending": "Šaljem…",
+      "success": "Poruka poslana. Odgovaram u roku od 24h.",
+      "error": "Slanje nije uspjelo. Pokušaj ponovno ili mi piši direktno na mail."
     }
   },
   "footer": {

@@ -69,8 +69,7 @@
   gap: 8px;
 }
 
-.field label,
-.topicLabel {
+.field label {
   font-family: var(--font-mono);
   font-size: 11px;
   letter-spacing: 0.08em;
@@ -103,38 +102,6 @@
   min-height: 96px;
 }
 
-.topics {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.topic {
-  appearance: none;
-  cursor: pointer;
-  padding: 9px 16px;
-  border-radius: 999px;
-  border: 1px solid var(--color-dark-border);
-  background: transparent;
-  color: var(--color-dark-muted);
-  font-family: var(--font-sans), Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  transition:
-    background 0.2s ease,
-    border-color 0.2s ease,
-    color 0.2s ease;
-}
-
-.topic:hover {
-  border-color: var(--color-dark-accent);
-}
-
-.topicActive {
-  background: var(--color-dark-accent);
-  border-color: var(--color-dark-accent);
-  color: var(--color-dark-bg);
-}
-
 .formFooter {
   display: flex;
   align-items: center;
@@ -162,11 +129,32 @@
   background: var(--color-dark-accent-hover);
 }
 
+.submit:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
 .helper {
   font-family: var(--font-mono);
   font-size: 11px;
   letter-spacing: 0.04em;
   color: var(--color-dark-footer-text);
+}
+
+.sent {
+  color: var(--color-dark-accent);
+}
+
+.error {
+  color: var(--color-clay-200);
+}
+
+.honeypot {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
 }
 
 .list {
@@ -179,6 +167,18 @@
   .grid {
     grid-template-columns: 1fr;
     gap: 40px;
+  }
+}
+
+@media (max-width: 760px) {
+  .contact {
+    padding-top: 72px;
+    padding-bottom: 64px;
+    gap: 36px;
+  }
+
+  .form {
+    padding: 22px;
   }
 }
 
@@ -206,6 +206,7 @@
   display: flex;
   flex-direction: column;
   gap: 5px;
+  min-width: 0;
 }
 
 .linkLabel {
@@ -220,6 +221,7 @@
   font-size: clamp(19px, 2vw, 24px);
   letter-spacing: -0.02em;
   font-weight: 400;
+  overflow-wrap: anywhere;
 }
 
 .linkArrow {

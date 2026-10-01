@@ -19,6 +19,21 @@
   display: flex;
 }
 
+@media (max-width: 760px) {
+  .hero {
+    padding-top: 48px;
+    padding-bottom: 72px;
+  }
+
+  .grid {
+    gap: 40px;
+  }
+
+  .copy {
+    gap: 28px;
+  }
+}
+
 @media (min-width: 960px) {
   .grid {
     flex-direction: row;
@@ -63,7 +78,7 @@
 
 .heading {
   margin: 0;
-  font-size: clamp(64px, 11vw, 132px);
+  font-size: clamp(min(64px, 17vw), 11vw, 132px);
   line-height: 0.92;
   font-weight: 500;
   letter-spacing: -0.05em;

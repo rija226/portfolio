@@ -68,5 +68,11 @@
   .about {
     grid-template-columns: 1fr;
     gap: 40px;
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .callout {
+    padding: 16px 18px;
   }
 }

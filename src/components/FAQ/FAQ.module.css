@@ -87,6 +87,8 @@
   .faq {
     grid-template-columns: 1fr;
     gap: 32px;
+    padding-top: 72px;
+    padding-bottom: 72px;
   }
 
   .answer {
