@@ -6,15 +6,13 @@
   position: sticky;
   top: 0;
   z-index: 50;
-  background: transparent;
+  /* always opaque (same as the page bg at the top), so content never shows through mid-transition */
+  background: var(--color-sand-50);
   box-shadow: 0 8px 24px -16px rgba(26, 26, 26, 0);
-  transition:
-    background 0.3s ease,
-    box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease;
 }
 
 .scrolled {
-  background: var(--color-sand-50);
   box-shadow: 0 8px 24px -16px rgba(26, 26, 26, 0.3);
 }
 

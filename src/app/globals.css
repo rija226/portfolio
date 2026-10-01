@@ -58,6 +58,8 @@ html {
 
 body {
   margin: 0;
+  /* iOS ignores overflow-x: hidden on html; clip also keeps position: sticky working */
+  overflow-x: clip;
   background: var(--color-sand-50);
   color: var(--color-ink-900);
   font-family: var(--font-sans), Helvetica, Arial, sans-serif;
