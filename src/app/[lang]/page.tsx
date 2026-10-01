@@ -13,6 +13,7 @@ import Contact from "@/components/Contact/Contact";
 import Footer from "@/components/Footer/Footer";
 import Reveal from "@/components/Reveal/Reveal";
 import StickyHeader from "@/components/StickyHeader/StickyHeader";
+import BackToTop from "@/components/BackToTop/BackToTop";
 
 export default async function Home({ params }: PageProps<"/[lang]">) {
   const { lang } = await params;
@@ -55,6 +56,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
       <Reveal>
         <Footer dict={dict.footer} />
       </Reveal>
+      <BackToTop label={dict.footer.backToTop} />
     </>
   );
 }

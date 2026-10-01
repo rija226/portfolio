@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Aleksandar — Full-stack programer",
-    "description": "Full-stack programer fokusiran na frontend, gradim brza sučelja u Reactu i Next.js-u."
+    "title": "Aleksandar Rijić · Full-stack programer",
+    "description": "Full-stack programer, najviše radim frontend. Web stranice i aplikacije u Reactu i Next.js-u."
   },
   "header": {
     "name": "Aleksandar",
@@ -14,11 +14,12 @@
     ]
   },
   "hero": {
-    "availability": "Dostupan za freelance poslove",
+    "availability": "Dostupan za freelance i stalni posao",
     "heading": "Aleksandar",
-    "intro": "Full-stack sam programer fokusiran na frontend. Gradim promišljena, brza sučelja u Reactu i Next.js-u — te API-je, baze podataka i deployeve koji ih održavaju u pogonu.",
+    "intro": "Full-stack programer, najviše radim frontend. Radim web stranice i aplikacije u Reactu i Next.js-u, a backend i deploy rješavam sam.",
     "primaryCta": { "href": "#contact", "label": "Javi se" },
-    "secondaryCta": { "href": "#work", "label": "Pogledaj moj rad" }
+    "secondaryCta": { "href": "#work", "label": "Pogledaj radove" },
+    "currently": "U izradi: Celeste"
   },
   "techStrip": {
     "label": "Radim s",
@@ -26,126 +27,126 @@
   },
   "services": {
     "eyebrow": "Čime se bavim",
-    "heading": "Tri vrste posla, jedan način rada.",
-    "intro": "Što god ti zatreba, dobivaš isto: nešto što se brzo učitava, dobro drži i lako se predaje dalje.",
+    "heading": "Web stranice, web i mobilne aplikacije.",
+    "intro": "Na svakom projektu najviše pazim na brzinu i na to da kod može preuzeti netko drugi.",
     "items": [
       {
         "title": "Web stranice",
-        "blurb": "Marketing stranice i landing stranice koje se brzo učitavaju, dobro izgledaju na mobitelu i omogućuju ti uređivanje vlastitog sadržaja bez potrebe da zoveš mene."
+        "blurb": "Prezentacijske i landing stranice koje dobro rade na mobitelu. Sadržaj mijenjaš sam kroz CMS, ne moraš zvati mene."
       },
       {
         "title": "Web aplikacije",
-        "blurb": "Nadzorne ploče, portali i interni alati — autentifikacija, podaci i oni manje glamurozni tokovi koji odlučuju hoće li ih ljudi uopće koristiti."
+        "blurb": "Dashboardi, portali i interni alati, uključujući dosadne, ali važne dijelove kao što su prijava, ovlasti i forme."
       },
       {
         "title": "Mobilne aplikacije",
-        "blurb": "Cross-platform aplikacije u React Nativeu, objavljene u obje trgovine, koje djeluju kao prave aplikacije, a ne kao web stranica u ljusci."
+        "blurb": "Aplikacije za iOS i Android u React Nativeu, objavljene na App Storeu i Google Playu."
       }
     ]
   },
   "about": {
     "eyebrow": "O meni",
     "paragraphs": [
-      "Nakon četiri godine, pronašao sam dio stacka koji mi najviše odgovara: mjesto gdje se čisto sučelje susreće sa sustavom koji stvarno funkcionira. Veći dio tog vremena proveo sam u Reactu i Next.js-u na frontendu, uz Node i Postgres iza svega.",
-      "Stalo mi je do sitnica — kako se stranica učitava, kako obrazac ne uspijeva, osjeća li se klik kao da je stvarno nešto pokrenuo. AI i agentski alati danas su normalan dio mog rada; oni preuzimaju osnovnu izradu kako bih se ja mogao usredotočiti na arhitekturu i detalje. Pišem jednostavnim jezikom, isporučujem u malim koracima i radije ću postaviti dodatno pitanje nego napraviti krivu stvar."
+      "Ovim se bavim četiri godine, uglavnom React i Next.js na frontendu, a Node i Postgres na backendu. Frontend mi je i dalje najdraži dio posla.",
+      "Pazim na detalje, recimo koliko se brzo stranica učita i što forma kaže kad nešto pođe po zlu. AI alate koristim svaki dan za boilerplate i testove, pa mi ostane više vremena za arhitekturu. Ako mi nešto u zadatku nije jasno, pitam prije nego što počnem."
     ],
-    "callout": "Trenutačno sam otvoren i za stalni posao i za freelance projekte — web stranice, web aplikacije ili mobilne aplikacije.",
+    "callout": "Trenutno sam otvoren i za stalni posao i za freelance projekte.",
     "photoAlt": "Portretna fotografija Aleksandra"
   },
   "process": {
     "eyebrow": "Kako radim",
-    "heading": "Četiri koraka, bez misterije.",
+    "heading": "Kako obično ide projekt.",
     "steps": [
       {
-        "title": "Otkrivanje",
+        "title": "Dogovor",
         "arrow": "→",
-        "blurb": "Poziv i kratak pisani sažetak. Želim znati za koga je i kako izgleda uspjeh prije nego što uopće otvorim editor."
+        "blurb": "Razgovaramo, a onda napišem kratak sažetak dogovorenog. Prije prve linije koda želim znati za koga je i što želiš postići."
       },
       {
         "title": "Dizajn",
         "arrow": "→",
-        "blurb": "Prvo wireframeovi, zatim stvarni ekrani. Sve vidiš rano i često, tako da ništa ne dođe kao iznenađenje."
+        "blurb": "Prvo wireframeovi, onda pravi ekrani. Vidiš ih rano, dok se stvari još lako mijenjaju."
       },
       {
         "title": "Izrada",
         "arrow": "→",
-        "blurb": "Mali koraci na živom preview URL-u. Oslanjam se na AI i agentske alate za osnovnu izradu i testove, što oslobađa vrijeme za detalje koji su stvarno bitni."
+        "blurb": "Radim u malim koracima, a napredak pratiš na preview linku."
       },
       {
-        "title": "Lansiranje",
+        "title": "Objava",
         "arrow": "",
-        "blurb": "Deploy, analitika, pregled i uredna dokumentacija — a zatim provjera nakon što malo poživiš s rješenjem."
+        "blurb": "Deploy, analitika, dokumentacija i kratko objašnjenje kako sve radi. Par tjedana nakon objave se čujemo i vidimo treba li nešto promijeniti."
       }
     ]
   },
   "projects": {
     "eyebrow": "Odabrani radovi",
-    "intro": "Nedavni radovi — stvarni projekti, ne demoi.",
+    "intro": "Nekoliko stvari koje sam nedavno napravio.",
     "items": [
       {
         "title": "Plava Laguna Partners Portal",
         "year": "2026",
         "href": "#",
-        "blurb": "Portal zaštićen prijavom za poslovne partnere Plava Lagune — pregled smještaja, fact sheetovi i fotografije na jednom mjestu, s filterima po tipu, broju zvjezdica i lokaciji. Sadržaj se uređuje kroz Contentful, bez diranja koda.",
+        "blurb": "Portal za partnerske turističke agencije Plave Lagune, dostupan uz prijavu. Smještajni objekti, fact sheetovi i fotografije su na jednom mjestu, s filterima po tipu, zvjezdicama i lokaciji. Sadržaj je u Contentfulu, pa ga tim uređuje bez programera.",
         "stack": ["Next.js", "Contentful", "Netlify"]
       },
       {
         "title": "Celeste",
         "year": "2026",
         "href": "#",
-        "blurb": "Aplikacija za učenje astronomije — kartice s pametnim ponavljanjem, kvizovi sazviježđa i AR pogled uživo koji kroz kameru pokazuje položaje planeta i meteorske rojeve večeras. Razine, XP i niz dana drže motivaciju.",
+        "blurb": "Aplikacija za učenje astronomije. Kartice s pametnim ponavljanjem, kvizovi o zviježđima i AR prikaz: usmjeriš kameru prema nebu i vidiš koji su planeti i meteorski rojevi večeras gore. Za motivaciju tu su razine, XP i niz dana zaredom.",
         "stack": ["React Native", "Expo", "Supabase"]
       },
       {
         "title": "Focus Flow",
         "year": "2026",
         "href": "#",
-        "blurb": "Mobilni task menadžer — ekrani Today, Board i Categories, jedan Kanban tok od todo do gotovo, i podsjetnici za rokove. Napravljen na Supabase autentifikaciji i Postgresu, sve vezano za tvoj račun.",
+        "blurb": "Task menadžer s ekranima Today, Board i Categories, Kanban pločom od todo do done i podsjetnicima za rokove. Prijava i podaci idu preko Supabasea, a svaki korisnik vidi samo svoje zadatke.",
         "stack": ["React", "TypeScript", "Supabase"]
       },
       {
         "title": "Posavski Med",
         "year": "2026",
         "href": "#",
-        "blurb": "Prezentacijski sajt za obiteljsko pčelarstvo iz Posavine — asortiman proizvoda, obiteljska priča i blog, s ciljem da izgradi povjerenje i dovede posjetitelje do kontakta. Potpuno statičan, bez backend-a.",
+        "blurb": "Web stranica za obiteljsko pčelarstvo iz Posavine: proizvodi, priča obitelji i blog. Cilj je bio da se posjetitelji jave. Potpuno statična, bez backenda.",
         "stack": ["React", "Tailwind", "Framer Motion"]
       }
     ]
   },
   "faq": {
     "eyebrow": "Česta pitanja",
-    "heading": "Stvari koje klijenti obično pitaju prve.",
+    "heading": "Što me ljudi najčešće pitaju.",
     "items": [
       {
-        "q": "Koliko dugo traje projekt?",
-        "a": "Marketing stranica obično traje dva do tri tjedna. Web ili mobilna aplikacija ovisi o opsegu — većina onoga što radim traje između šest i deset tjedana. Dat ću ti raspon nakon prvog poziva, i radije ću ga naglas revidirati nego tiho promašiti."
+        "q": "Koliko traje projekt?",
+        "a": "Jednostavna web stranica obično dva do tri tjedna. Kod aplikacija ovisi o opsegu, pa procjenu dobiješ nakon prvog razgovora. Ako vidim da ćemo probiti rok, javim ti odmah."
       },
       {
         "q": "Kako naplaćuješ?",
-        "a": "Fiksna cijena kad je opseg jasan, tjedna stopa kad još nije. U oba slučaja vidiš broj prije nego što počnem, i na kraju nema iznenadnih stavki."
+        "a": "Fiksna cijena kad je opseg jasan, a naplata po tjednu kad još nije. Cijenu znaš prije nego što počnem."
       },
       {
         "q": "Radiš li s postojećim timovima?",
-        "a": "Često. Ugodno mi je uključiti se u postojeći kodbaz, pratiti vaše konvencije i pregledavati PR-ove umjesto da sve prepisujem. Prvi tjedan postavljam puno pitanja, a poslije manje."
+        "a": "Da. Mogu uskočiti u postojeći kod, pratiti vaša pravila i pregledavati PR-ove. Prvi tjedan postavljam puno pitanja."
       },
       {
         "q": "Što ako mi treba samo dio projekta?",
-        "a": "Nema problema — velik dio mog posla je samo jedan segment: frontend na vrhu API-ja koji već imaš, dizajn predan meni kao Figma datoteke, ili prolaz kroz performanse i pristupačnost na nečemu što je već live."
+        "a": "Može. Na primjer frontend za API koji već imaš, izrada po gotovom dizajnu iz Figme ili sređivanje brzine i pristupačnosti stranice koja je već objavljena."
       },
       {
-        "q": "Nastavljaš li raditi na tome nakon lansiranja?",
-        "a": "Ako to želiš. Predat ću ti urednu dokumentaciju kako ne bi ovisio o meni, a rado ostajem na maloj mjesečnoj suradnji za popravke i manje funkcionalnosti."
+        "q": "Nastavljaš li raditi na tome nakon objave?",
+        "a": "Ako želiš. Dobiješ dokumentaciju da ne ovisiš o meni, a mogu ostati i za popravke i manje dorade uz mjesečni dogovor."
       }
     ]
   },
   "contact": {
     "eyebrow": "Kontakt",
-    "heading": "Imaš nešto što želiš napraviti? Reci mi o tome.",
-    "intro": "Zapošljavanje, freelance ili samo pitanje o odabiru tehnologije — odgovaram na sve.",
+    "heading": "Imaš projekt ili ponudu za posao? Javi se.",
+    "intro": "Posao, freelance projekt ili samo tehničko pitanje, pošalji poruku. Odgovaram na sve.",
     "links": [
       { "label": "Email", "value": "aleksandarrijic@gmail.com", "href": "mailto:aleksandarrijic@gmail.com" },
       { "label": "LinkedIn", "value": "/in/aleksandar-rijic", "href": "https://www.linkedin.com/in/aleksandar-rijic-253326202" },
-      { "label": "GitHub", "value": "@aleksandar", "href": "https://github.com" }
+      { "label": "GitHub", "value": "@rija226", "href": "https://github.com/rija226" }
     ],
     "form": {
       "nameLabel": "Ime",
@@ -153,17 +154,17 @@
       "emailLabel": "Email",
       "emailPlaceholder": "ti@tvrtka.com",
       "messageLabel": "Poruka",
-      "messagePlaceholder": "Što gradiš i otprilike kad ti treba?",
+      "messagePlaceholder": "Na čemu radiš i otprilike do kad ti treba?",
       "submit": "Pošalji poruku",
-      "helper": "Odgovaram u roku od 24h",
+      "helper": "Odgovaram unutar 24 sata",
       "sending": "Šaljem…",
-      "success": "Poruka poslana. Odgovaram u roku od 24h.",
-      "error": "Slanje nije uspjelo. Pokušaj ponovno ili mi piši direktno na mail."
+      "success": "Poruka je poslana. Javim se unutar 24 sata.",
+      "error": "Slanje nije uspjelo. Pokušaj ponovno ili mi piši na mail."
     }
   },
   "footer": {
     "name": "Aleksandar",
-    "blurb": "Full-stack programer fokusiran na frontend. Web stranice, web aplikacije i mobilne aplikacije — napravljene da traju dulje od lansiranja.",
+    "blurb": "Full-stack programer, najviše radim frontend. Web stranice, web i mobilne aplikacije.",
     "status": "Otvoren za posao · Remote",
     "sectionsLabel": "Sekcije",
     "sections": [
@@ -173,8 +174,8 @@
       { "href": "#work", "label": "Radovi" },
       { "href": "#faq", "label": "FAQ" }
     ],
-    "copyright": "© 2026 Aleksandar · Sva prava pridržana",
-    "builtWith": "Izrađeno u Next.js-u · deployano na Vercelu",
+    "copyright": "© 2026 Aleksandar Rijić · Sva prava pridržana",
+    "builtWith": "Napravljeno u Next.js-u · hostano na Vercelu",
     "backToTop": "Na vrh"
   }
 }

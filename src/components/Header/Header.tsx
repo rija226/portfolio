@@ -12,14 +12,16 @@ const localeLabels: Record<Locale, string> = {
 export default function Header({ dict, lang }: { dict: Dictionary["header"]; lang: Locale }) {
   return (
     <header className={`${shared.container} ${styles.header}`}>
-      <Image
-        src="/logo-primary-transparent.png"
-        alt={dict.name}
-        width={1191}
-        height={384}
-        priority
-        className={styles.logo}
-      />
+      <a href="#" className={styles.logoLink}>
+        <Image
+          src="/logo-primary-transparent.png"
+          alt={dict.name}
+          width={1191}
+          height={384}
+          priority
+          className={styles.logo}
+        />
+      </a>
       <HeaderNav label={dict.menu}>
         {dict.nav.map((link) => (
           <a key={link.href} href={link.href}>

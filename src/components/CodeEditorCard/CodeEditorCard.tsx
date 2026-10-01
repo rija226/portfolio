@@ -16,69 +16,69 @@ const NBSP = "  ";
 const lines: Line[] = [
   {
     id: "comment",
-    chars: 15,
-    duration: 0.46,
+    chars: 8,
+    duration: 0.39,
     delay: 0.35,
-    parts: [{ text: "// what you get", cls: "muted" }],
+    parts: [{ text: "// tl;dr", cls: "muted" }],
   },
   {
     id: "open",
     chars: 27,
     duration: 0.6,
-    delay: 0.96,
+    delay: 0.89,
     parts: [{ text: "export const", cls: "kw" }, { text: " aleksandar = {" }],
   },
   {
-    id: "builds",
-    chars: 36,
-    duration: 0.71,
-    delay: 1.71,
+    id: "role",
+    chars: 38,
+    duration: 0.74,
+    delay: 1.64,
     parts: [
-      { text: `${NBSP}builds: ` },
-      { text: "'fast, polished web apps'", cls: "str" },
+      { text: `${NBSP}role: ` },
+      { text: "'full-stack, mostly frontend'", cls: "str" },
       { text: "," },
     ],
   },
   {
-    id: "focus",
-    chars: 43,
-    duration: 0.8,
-    delay: 2.57,
+    id: "stack",
+    chars: 35,
+    duration: 0.7,
+    delay: 2.53,
     parts: [
-      { text: `${NBSP}focus: ` },
-      { text: "'feels instant, works everywhere'", cls: "str" },
-      { text: "," },
+      { text: `${NBSP}stack: [` },
+      { text: "'react'", cls: "str" },
+      { text: ", " },
+      { text: "'next'", cls: "str" },
+      { text: ", " },
+      { text: "'node'", cls: "str" },
+      { text: "]," },
     ],
   },
   {
-    id: "turnaround",
-    chars: 33,
-    duration: 0.68,
-    delay: 3.52,
-    parts: [
-      { text: `${NBSP}turnaround: ` },
-      { text: "'days, not months'", cls: "str" },
-      { text: "," },
-    ],
+    id: "available",
+    chars: 18,
+    duration: 0.5,
+    delay: 3.38,
+    parts: [{ text: `${NBSP}available: ` }, { text: "true", cls: "kw" }, { text: "," }],
   },
   {
     id: "close",
     chars: 2,
     duration: 0.3,
-    delay: 4.35,
+    delay: 4.03,
     parts: [{ text: "};" }],
   },
   {
     id: "result",
     chars: 33,
     duration: 0.68,
-    delay: 4.8,
+    delay: 4.48,
     prompt: true,
     parts: [{ text: "❯ build passed · deployed in 1.2s" }],
   },
 ];
 
-export default function CodeEditorCard() {
+export default function CodeEditorCard({ status }: { status: string }) {
   return (
     <div className={styles.wrapper} aria-hidden="true">
       <div className={styles.card}>
@@ -114,7 +114,7 @@ export default function CodeEditorCard() {
       </div>
       <div className={styles.status}>
         <span className={styles.pulseDot} />
-        <span className={styles.statusText}>Currently building — Celeste</span>
+        <span className={styles.statusText}>{status}</span>
       </div>
     </div>
   );

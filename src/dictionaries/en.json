@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Aleksandar — Full-stack developer",
-    "description": "Full-stack developer with a frontend focus, building fast interfaces in React and Next.js."
+    "title": "Aleksandar Rijić · Full-stack developer",
+    "description": "Full-stack developer, mostly frontend. Websites and apps in React and Next.js."
   },
   "header": {
     "name": "Aleksandar",
@@ -14,11 +14,12 @@
     ]
   },
   "hero": {
-    "availability": "Available for freelance work",
+    "availability": "Open to freelance and full-time work",
     "heading": "Aleksandar",
-    "intro": "I'm a full-stack developer with a frontend focus. I build considered, fast interfaces in React and Next.js — and the APIs, databases and deploys that keep them running.",
+    "intro": "Full-stack developer, mostly frontend. I build websites and apps in React and Next.js, and I handle the backend and deployment myself.",
     "primaryCta": { "href": "#contact", "label": "Get in touch" },
-    "secondaryCta": { "href": "#work", "label": "See my work" }
+    "secondaryCta": { "href": "#work", "label": "See projects" },
+    "currently": "Currently building: Celeste"
   },
   "techStrip": {
     "label": "Working with",
@@ -26,126 +27,126 @@
   },
   "services": {
     "eyebrow": "What I do",
-    "heading": "Three kinds of work, one way of working.",
-    "intro": "Whichever you need, you get the same thing: something that loads fast, holds up, and is easy to hand over.",
+    "heading": "Websites, web apps and mobile apps.",
+    "intro": "Whatever the project, I care most about speed and about leaving code that someone else can take over.",
     "items": [
       {
         "title": "Websites",
-        "blurb": "Marketing sites and landing pages that load fast, read well on a phone, and let you edit your own copy without calling me."
+        "blurb": "Marketing sites and landing pages that work well on a phone. You edit the content yourself in a CMS, no need to call me."
       },
       {
         "title": "Web apps",
-        "blurb": "Dashboards, portals and internal tools — auth, data, and the unglamorous flows that decide whether people actually use it."
+        "blurb": "Dashboards, portals and internal tools, including the boring but important parts like login, permissions and forms."
       },
       {
         "title": "Mobile apps",
-        "blurb": "Cross-platform apps in React Native, shipped to both stores, that feel native rather than like a website in a shell."
+        "blurb": "iOS and Android apps in React Native, published to the App Store and Google Play."
       }
     ]
   },
   "about": {
     "eyebrow": "About",
     "paragraphs": [
-      "Four years in, I've settled into the part of the stack I like most: the seam where a clean interface meets a system that actually holds up. Most of that time has been React and Next.js on the front, Node and Postgres behind it.",
-      "I care about the small things — how a page loads, how a form fails, whether the thing you clicked feels like it responded. AI and agentic tools are a normal part of how I work now; they handle the scaffolding so I can spend my attention on architecture and detail. I write in plain language, ship in small increments, and I'd rather ask one more question than build the wrong thing."
+      "I've been doing this for four years, mostly React and Next.js on the frontend, with Node and Postgres on the backend. Frontend is still the part I enjoy most.",
+      "I pay attention to details, like how fast a page loads and what a form says when something goes wrong. I use AI tools every day for boilerplate and tests, which leaves me more time for architecture. If something in the brief isn't clear, I ask before I start."
     ],
-    "callout": "Right now I'm open to both a full-time role and freelance builds — websites, web apps, or mobile.",
+    "callout": "Right now I'm open to both a full-time role and freelance projects.",
     "photoAlt": "Portrait photo of Aleksandar"
   },
   "process": {
     "eyebrow": "How I work",
-    "heading": "Four steps, no mystery.",
+    "heading": "How a project usually goes.",
     "steps": [
       {
-        "title": "Discovery",
+        "title": "Kickoff",
         "arrow": "→",
-        "blurb": "A call and a short written brief. I want to know who it's for and what success looks like before I open an editor."
+        "blurb": "We talk, then I write a short summary of what we agreed. Before I write any code I want to know who it's for and what you want out of it."
       },
       {
         "title": "Design",
         "arrow": "→",
-        "blurb": "Wireframes first, then real screens. You see it early and often, so nothing lands as a surprise."
+        "blurb": "Wireframes first, then the real screens. You see them early, while things are still easy to change."
       },
       {
         "title": "Build",
         "arrow": "→",
-        "blurb": "Small increments on a live preview URL. I lean on AI and agentic tools for scaffolding and tests, which buys back time for the details that matter."
+        "blurb": "I work in small steps and you can follow along on a preview link."
       },
       {
         "title": "Launch",
         "arrow": "",
-        "blurb": "Deploy, analytics, a walkthrough and clean docs — then a check-in once you've lived with it."
+        "blurb": "Deploy, analytics, docs and a short walkthrough. A few weeks after launch we check in to see if anything needs changing."
       }
     ]
   },
   "projects": {
     "eyebrow": "Selected work",
-    "intro": "Recent work — real projects, not demos.",
+    "intro": "A few things I've built recently.",
     "items": [
       {
         "title": "Plava Laguna Partners Portal",
         "year": "2026",
         "href": "#",
-        "blurb": "A login-protected portal for Plava Laguna's travel-agency partners — property listings, fact sheets and photos in one place, filterable by type, stars and location. Content runs through Contentful, so the team edits it without touching code.",
+        "blurb": "A portal for Plava Laguna's travel agency partners, behind a login. Properties, fact sheets and photos are in one place, with filters for type, stars and location. Content lives in Contentful, so the team updates it without a developer.",
         "stack": ["Next.js", "Contentful", "Netlify"]
       },
       {
         "title": "Celeste",
         "year": "2026",
         "href": "#",
-        "blurb": "An astronomy learning app — spaced-repetition flashcards, constellation quizzes, and a live AR sky view that shows tonight's planets and meteor showers through the camera. Levels, XP and streaks make it stick.",
+        "blurb": "An app for learning astronomy. Spaced-repetition flashcards, constellation quizzes and an AR view: point the camera at the sky and it shows which planets and meteor showers are up tonight. There are also levels, XP and daily streaks.",
         "stack": ["React Native", "Expo", "Supabase"]
       },
       {
         "title": "Focus Flow",
         "year": "2026",
         "href": "#",
-        "blurb": "A mobile task manager — Today, Board and Categories screens, one Kanban flow from todo to done, and due-date reminders. Built on Supabase auth and Postgres, everything scoped to your account.",
+        "blurb": "A task manager with Today, Board and Categories screens, a Kanban board from todo to done, and due-date reminders. Login and data run on Supabase, and each user only sees their own tasks.",
         "stack": ["React", "TypeScript", "Supabase"]
       },
       {
         "title": "Posavski Med",
         "year": "2026",
         "href": "#",
-        "blurb": "A marketing site for a family beekeeping business in Posavina — product range, the family's story and a blog, built to earn trust and turn visitors into contacts. Fully static, no backend.",
+        "blurb": "A website for a family beekeeping business from Posavina: their products, the family's story and a blog. The goal was to get visitors to reach out. Fully static, no backend.",
         "stack": ["React", "Tailwind", "Framer Motion"]
       }
     ]
   },
   "faq": {
     "eyebrow": "FAQ",
-    "heading": "The things clients usually ask first.",
+    "heading": "What people usually ask me.",
     "items": [
       {
         "q": "How long does a project take?",
-        "a": "A marketing site is usually two to three weeks. A web or mobile app depends on scope — most of what I take on lands between six and ten weeks. I'll give you a range after our first call, and I'd rather revise it out loud than quietly miss it."
+        "a": "A simple website usually takes two to three weeks. For an app it depends on scope, so you'll get an estimate after our first call. If it looks like we'll run over, I'll tell you right away."
       },
       {
         "q": "How do you charge?",
-        "a": "Fixed price when the scope is clear, a weekly rate when it isn't yet. Either way you see the number before I start, and there are no surprise line items at the end."
+        "a": "Fixed price when the scope is clear, a weekly rate when it isn't yet. You know the price before I start."
       },
       {
         "q": "Do you work with existing teams?",
-        "a": "Often. I'm comfortable dropping into an existing codebase, following your conventions, and reviewing PRs rather than rewriting things. I ask a lot of questions in the first week and fewer after that."
+        "a": "Yes. I can join an existing codebase, follow your conventions and review PRs. The first week I ask a lot of questions."
       },
       {
         "q": "What if I only need part of a project?",
-        "a": "That's fine — plenty of my work is one slice: a frontend on top of an API you already have, a design handed to me as Figma files, or a performance and accessibility pass on something already live."
+        "a": "Sure. For example a frontend for an API you already have, building from a Figma design, or fixing speed and accessibility on a site that's already live."
       },
       {
         "q": "Do you keep working on it after launch?",
-        "a": "If you want me to. I'll hand over clean docs so you're not dependent on me, and I'm happy to stay on a small monthly arrangement for fixes and small features."
+        "a": "If you want. You get docs so you don't depend on me, and I can stay on for fixes and small features on a monthly basis."
       }
     ]
   },
   "contact": {
     "eyebrow": "Contact",
-    "heading": "Got something you want built? Tell me about it.",
-    "intro": "Hiring, freelance, or just a question about a stack decision — I reply to everything.",
+    "heading": "Have a project or a job offer? Get in touch.",
+    "intro": "Hiring, freelance or just a technical question, send it over. I reply to every message.",
     "links": [
       { "label": "Email", "value": "aleksandarrijic@gmail.com", "href": "mailto:aleksandarrijic@gmail.com" },
       { "label": "LinkedIn", "value": "/in/aleksandar-rijic", "href": "https://www.linkedin.com/in/aleksandar-rijic-253326202" },
-      { "label": "GitHub", "value": "@aleksandar", "href": "https://github.com" }
+      { "label": "GitHub", "value": "@rija226", "href": "https://github.com/rija226" }
     ],
     "form": {
       "nameLabel": "Name",
@@ -153,17 +154,17 @@
       "emailLabel": "Email",
       "emailPlaceholder": "you@company.com",
       "messageLabel": "Message",
-      "messagePlaceholder": "What are you building, and roughly when do you need it?",
+      "messagePlaceholder": "What are you working on, and roughly when do you need it?",
       "submit": "Send message",
-      "helper": "Replies within 24h",
+      "helper": "I reply within 24 hours",
       "sending": "Sending…",
-      "success": "Message sent. I'll reply within 24h.",
+      "success": "Message sent. I'll get back to you within 24 hours.",
       "error": "Couldn't send. Please try again or email me directly."
     }
   },
   "footer": {
     "name": "Aleksandar",
-    "blurb": "Full-stack developer with a frontend focus. Websites, web apps and mobile — built to last longer than the launch.",
+    "blurb": "Full-stack developer, mostly frontend. Websites, web apps and mobile apps.",
     "status": "Open to work · Remote",
     "sectionsLabel": "Sections",
     "sections": [
@@ -173,8 +174,8 @@
       { "href": "#work", "label": "Work" },
       { "href": "#faq", "label": "FAQ" }
     ],
-    "copyright": "© 2026 Aleksandar · All rights reserved",
-    "builtWith": "Built with Next.js · deployed on Vercel",
+    "copyright": "© 2026 Aleksandar Rijić · All rights reserved",
+    "builtWith": "Built with Next.js · hosted on Vercel",
     "backToTop": "Back to top"
   }
 }

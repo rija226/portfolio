@@ -105,7 +105,12 @@ export default function Contact({ dict }: { dict: Dictionary["contact"] }) {
           </form>
           <div className={styles.list}>
             {dict.links.map((l) => (
-              <a key={l.label} href={l.href} className={styles.link}>
+              <a
+                key={l.label}
+                href={l.href}
+                className={styles.link}
+                {...(l.href.startsWith("http") && { target: "_blank", rel: "noopener noreferrer" })}
+              >
                 <span className={styles.linkText}>
                   <span className={styles.linkLabel}>{l.label}</span>
                   <span className={styles.linkValue}>{l.value}</span>

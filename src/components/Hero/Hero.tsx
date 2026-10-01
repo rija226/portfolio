@@ -28,7 +28,7 @@ export default function Hero({ dict }: { dict: Dictionary["hero"] }) {
           </div>
         </div>
         <div className={styles.visual}>
-          <CodeEditorCard />
+          <CodeEditorCard status={dict.currently} />
         </div>
       </div>
     </section>
